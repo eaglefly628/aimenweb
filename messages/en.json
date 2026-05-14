@@ -1,0 +1,93 @@
+{
+  "brand": {
+    "name": "Aimen",
+    "tagline": "Story, into the next dimension"
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "gallery": "Work",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "AIMEN · Story × Video × Data",
+    "title": "Weave every story into a living world",
+    "subtitle": "We build a narrative game engine fused with video, and a high-quality video data foundation for vision models and robotics training.",
+    "ctaPrimary": "Explore products",
+    "ctaSecondary": "Watch demo"
+  },
+  "vision": {
+    "title": "What we believe",
+    "items": [
+      {
+        "title": "Narrative is a new primitive",
+        "desc": "Story is no longer just content to consume — it drives interaction, generation, and how models understand the world."
+      },
+      {
+        "title": "Video is the language of the world",
+        "desc": "Next-generation intelligence must see, narrate, and perform. High-quality video is the key to understanding physical reality."
+      },
+      {
+        "title": "Tools shape what is possible",
+        "desc": "We build foundational tools for creators and researchers, turning powerful capabilities into everyday craft."
+      }
+    ]
+  },
+  "products": {
+    "title": "Our products",
+    "subtitle": "Two product lines, one goal: let narrative and data feed each other.",
+    "narrative": {
+      "name": "Narrative Engine",
+      "short": "A narrative game engine fused with video",
+      "desc": "Branching storytelling, real-time cinematics, and video generation in a single creation engine — so teams can craft interactive visual works the way they write a script.",
+      "highlights": [
+        "Node-based branching narrative editor",
+        "Real-time camera and staging",
+        "Seamless link to video generation models",
+        "Export as interactive playback or linear video"
+      ],
+      "cta": "Learn more"
+    },
+    "videoData": {
+      "name": "Video Data Hub",
+      "short": "Video data foundation for vision models and robotics",
+      "desc": "Capture, clean, label, synthesize, and version — a trustworthy, high-quality video dataset platform for next-generation vision models and embodied AI.",
+      "highlights": [
+        "Multi-source capture with provenance",
+        "Fine-grained spatiotemporal labeling",
+        "Mixed synthetic and real-world training data",
+        "Reproducible dataset versioning"
+      ],
+      "cta": "Learn more"
+    }
+  },
+  "gallery": {
+    "title": "Work & clips",
+    "subtitle": "From our engine, collaborations, and research demos.",
+    "comingSoon": "More work is on the way"
+  },
+  "about": {
+    "title": "About Aimen",
+    "intro": "Aimen is a technology company working at the intersection of storytelling, video, and intelligence. We believe the content of the future is both told and understood — it must move people, and it must feed machines.",
+    "missionTitle": "Mission",
+    "mission": "Build next-generation narrative tools for creators, and a trustworthy video data foundation for researchers.",
+    "valuesTitle": "How we work",
+    "values": [
+      "Technology and art carry equal weight",
+      "Tools first; open before we build in private",
+      "Reproducible, traceable, auditable",
+      "Respect creators, respect data sources"
+    ],
+    "contactTitle": "Contact",
+    "contact": "Partnerships / careers / press: hello@aimen.example"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "madeWith": "Built with love and code"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "backHome": "Back to home"
+  }
+}
