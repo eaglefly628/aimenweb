@@ -7,7 +7,7 @@ export default function RootPage() {
       <head>
         <meta httpEquiv="refresh" content={`0; url=${target}`} />
         <link rel="canonical" href={target} />
-        <title>Aimen</title>
+        <title>Aimeng</title>
         <script
           dangerouslySetInnerHTML={{
             __html: `(function(){
@@ -24,7 +24,7 @@ export default function RootPage() {
       </head>
       <body style={{ background: '#05060a', color: '#e6e8ef', fontFamily: 'system-ui' }}>
         <a href={target} style={{ color: '#5eead4' }}>
-          Aimen →
+          Aimeng →
         </a>
       </body>
     </html>

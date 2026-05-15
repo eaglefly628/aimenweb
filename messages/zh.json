@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "爱门 Aimen",
+    "name": "爱萌 Aimeng",
     "tagline": "让叙事进入下一个维度"
   },
   "nav": {
@@ -68,8 +68,8 @@
     "comingSoon": "更多作品正在路上"
   },
   "about": {
-    "title": "关于爱门",
-    "intro": "爱门 (Aimen) 是一家专注于叙事、视频与智能交叉地带的技术公司。我们相信未来的内容既是被讲述的，也是被理解的——既要打动人，也要喂养机器。",
+    "title": "关于爱萌",
+    "intro": "爱萌 (Aimeng) 是一家专注于叙事、视频与智能交叉地带的技术公司。我们相信未来的内容既是被讲述的，也是被理解的——既要打动人，也要喂养机器。",
     "missionTitle": "使命",
     "mission": "为创作者打造下一代叙事工具，为研究者打造可信赖的视频数据底座。",
     "valuesTitle": "我们的方式",
@@ -80,7 +80,7 @@
       "尊重创作者，尊重数据来源"
     ],
     "contactTitle": "联系我们",
-    "contact": "合作 / 加入 / 媒体：hello@aimen.example"
+    "contact": "合作 / 加入 / 媒体：hello@aimeng.com"
   },
   "footer": {
     "rights": "保留所有权利",

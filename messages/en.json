@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "Aimen",
+    "name": "Aimeng",
     "tagline": "Story, into the next dimension"
   },
   "nav": {
@@ -68,8 +68,8 @@
     "comingSoon": "More work is on the way"
   },
   "about": {
-    "title": "About Aimen",
-    "intro": "Aimen is a technology company working at the intersection of storytelling, video, and intelligence. We believe the content of the future is both told and understood — it must move people, and it must feed machines.",
+    "title": "About Aimeng",
+    "intro": "Aimeng is a technology company working at the intersection of storytelling, video, and intelligence. We believe the content of the future is both told and understood — it must move people, and it must feed machines.",
     "missionTitle": "Mission",
     "mission": "Build next-generation narrative tools for creators, and a trustworthy video data foundation for researchers.",
     "valuesTitle": "How we work",
@@ -80,7 +80,7 @@
       "Respect creators, respect data sources"
     ],
     "contactTitle": "Contact",
-    "contact": "Partnerships / careers / press: hello@aimen.example"
+    "contact": "Partnerships / careers / press: hello@aimeng.com"
   },
   "footer": {
     "rights": "All rights reserved",
