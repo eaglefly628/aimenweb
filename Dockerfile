@@ -1,8 +1,12 @@
 # syntax=docker/dockerfile:1.7
 
 # --- Build stage ---
-FROM node:20-alpine AS builder
+# Use Aliyun mirror for faster pulls from inside mainland China.
+FROM registry.cn-hangzhou.aliyuncs.com/library/node:20-alpine AS builder
 WORKDIR /app
+
+# Point npm at the Aliyun (npmmirror) registry so installs don't time out.
+RUN npm config set registry https://registry.npmmirror.com
 
 # Install deps first for better layer caching
 COPY package.json package-lock.json* ./
@@ -13,7 +17,7 @@ COPY . .
 RUN npm run build
 
 # --- Runtime stage: nginx serving static files ---
-FROM nginx:1.27-alpine AS runtime
+FROM registry.cn-hangzhou.aliyuncs.com/library/nginx:1.27-alpine AS runtime
 RUN rm -rf /usr/share/nginx/html/* /etc/nginx/conf.d/default.conf
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /app/out /usr/share/nginx/html
