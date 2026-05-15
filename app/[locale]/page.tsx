@@ -14,7 +14,7 @@ export default async function HomePage({
 
   return (
     <>
-      <Hero locale={locale} />
+      <Hero />
       <Vision locale={locale} />
       <ProductShowcase locale={locale} />
     </>

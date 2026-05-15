@@ -11,11 +11,19 @@
     "contact": "Contact"
   },
   "hero": {
-    "eyebrow": "AIMEN · Story × Video × Data",
-    "title": "Weave every story into a living world",
-    "subtitle": "We build a narrative game engine fused with video, and a high-quality video data foundation for vision models and robotics training.",
+    "eyebrow": "AIMENG · STORY × VIDEO × DATA",
+    "titleLine1": "Stories as engines.",
+    "titleLine2": "Video as data.",
+    "subtitle": "Aimeng builds <em>narrative game engines</em> fused with <em>video</em>, and a high-quality <em>video data foundation</em> for vision models and robotics training.",
     "ctaPrimary": "Explore products",
-    "ctaSecondary": "Watch demo"
+    "ctaSecondary": "Watch demo",
+    "ctaSecondaryDuration": "2:14",
+    "scrollHint": "SCROLL",
+    "stats": {
+      "narrative": { "label": "Story Engine", "value": "Narrative" },
+      "video": { "label": "Video Fusion", "value": "Realtime" },
+      "data": { "label": "Data Substrate", "value": "Foundation" }
+    }
   },
   "vision": {
     "title": "What we believe",
